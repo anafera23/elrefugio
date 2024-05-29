@@ -8,7 +8,7 @@
 
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -95,7 +95,15 @@ main section {
   padding: 0px;
   width: 400%;
 }
-/*
+
+.slider-frame li {
+  list-style: none;
+  width: 100%;
+}
+
+.slider-frame img {
+  width: 100%;
+}/*
 .slider .slide {
   width: 100%;
   display: none;

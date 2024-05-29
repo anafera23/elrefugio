@@ -80,12 +80,22 @@ main section {
   flex-basis: 50%;
 }
 
-.slider {
-  position: relative;
+.slider-frame {
+  /*position: relative;
   width: 100%;
+  overflow: hidden;*/
+  width: 1280px;
+  height: auto;
+  margin: 50px auto 0;
   overflow: hidden;
 }
 
+.slider-frame ul{
+  display: flex;
+  padding: 0px;
+  width: 400%;
+}
+/*
 .slider .slide {
   width: 100%;
   display: none;
@@ -94,7 +104,7 @@ main section {
 .slider .slide img {
   width: 100%;
 }
-
+*/
 footer {
   background-color: #F5EFE6;
   color: #4F6F52;

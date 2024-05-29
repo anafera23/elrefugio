@@ -89,6 +89,8 @@ main section {
   max-height: 400px;
   margin: 50px auto 0;
   overflow: hidden;
+
+  animation: slide 16s infinite;
 }
 
 .slider-frame ul{
@@ -114,6 +116,19 @@ main section {
   width: 100%;
 }
 */
+@keyframes slide {
+  0% {margin-left: 0%;}
+  20% {margin-left: 0%;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  90% {margin-left: -300%;}
+}
 footer {
   background-color: #F5EFE6;
   color: #4F6F52;
